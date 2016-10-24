@@ -7,4 +7,5 @@ echo ****************************************
 
 echo ----------- Starting Checkout ----------
 TIMEOUT 2
+echo %DN_PATH%
 echo ------------- Checkout OK --------------
