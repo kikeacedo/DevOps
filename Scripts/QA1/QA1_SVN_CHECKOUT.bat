@@ -6,6 +6,7 @@ echo ****     QA1 SVN CHECKOUT v1.0      ****
 echo ****************************************
 
 echo ----------- Starting Checkout ----------
-TIMEOUT 2
+
+set /P DN_PATH=<path.txt
 echo %DN_PATH%
 echo ------------- Checkout OK --------------
