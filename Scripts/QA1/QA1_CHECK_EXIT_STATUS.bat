@@ -10,4 +10,5 @@ echo ----------- Starting Check Exit ----------
 
 echo %1
 echo %EXIT_STATUS%
+exit 1
 echo ------------- Check Exit OK --------------
