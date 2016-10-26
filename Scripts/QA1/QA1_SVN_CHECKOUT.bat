@@ -9,4 +9,5 @@ echo ----------- Starting Checkout ----------
 
 set /P DN_PATH=<path.txt
 echo %DN_PATH%
+set NEXT_JOB=QA1_LOCK_PROYECTS
 echo ------------- Checkout OK --------------
