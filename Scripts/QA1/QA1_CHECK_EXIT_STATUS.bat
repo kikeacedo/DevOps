@@ -7,8 +7,11 @@ echo ****************************************
 
 echo ----------- Starting Check Exit ----------
 
-IF %EXIT_STATUS% == %1 THEN
+IF %EXIT_STATUS% == %1(
 	EXIT 0
-ELSE
+	echo IGUAL
+)ELSE(
 	EXIT 1
+	echo NO IGUAL
+)
 echo ------------- Check Exit OK --------------
