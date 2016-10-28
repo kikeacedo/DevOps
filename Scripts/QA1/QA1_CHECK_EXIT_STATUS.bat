@@ -7,7 +7,7 @@ echo ****************************************
 
 echo ----------- Starting Check Exit ----------
 
-
+set /P EXIT_STATUS=<path.txt
 echo %1
 echo %EXIT_STATUS%
 exit 1
